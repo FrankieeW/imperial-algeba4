@@ -1,0 +1,60 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.pdf
+*.dvi
+*.ps
+
+# LaTeX intermediate files
+*.bcf
+*.run.xml
+*.idx
+*.ilg
+*.ind
+*.thm
+*.xdy
+
+# BibTeX
+*.bib.bak
+*.bst.bak
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Lean 4 build artifacts
+/lean_project/build/
+/lean_project/lake-packages/
+/lean_project/.lake/
+
+# Lean 3 (if used)
+/_target/
+/leanpkg.path
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.bak
